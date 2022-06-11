@@ -1,0 +1,74 @@
+body,
+h3 {
+    margin: 0 0 0 2em;
+    font-size: 1.25em;
+}
+
+h2 {
+    color:rgb(156, 237, 187)
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: monospace;
+}
+
+.resultados {
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 156, 73);
+    width: 20%;
+    height: 60%;
+    border-radius: 2%;
+    border: solid 1px gray;
+
+}
+
+.card img {
+    width: 75%;
+    height: auto;
+    padding-top: 1.5em;
+}
+
+#cantidad,
+#color {
+    width: 50%;
+    height: 2em;
+    border: solid 2px gray;
+    border-radius: 10px;
+    margin: 1%;
+    font-size: 0.8em;
+}
+
+button {
+    width: 60%;
+    height: 2em;
+    border: solid 1px gray;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+button:hover {
+    background-color: rgb(238, 255, 0);
+}
+
+.esfera {
+    display: flex;
+    flex-direction: row;
+}
+
+#labelColor {
+    height: 1.5em;
+    width: 1.5em;
+    border: solid 1px gray;
+    border-radius: 50%;
+}
